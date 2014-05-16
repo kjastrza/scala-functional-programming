@@ -11,3 +11,4 @@ classes/
 .gradle/
 *.log*
 assignments/
+*/bin
