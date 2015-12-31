@@ -3,14 +3,9 @@ val value = (("Oracle") map (x => x compare _) zip "Geecon") map (t=> t._1(t._2)
 println ((value map(_ toString)))
 
 
-
 println (value.foldLeft("")(_ + _))
 
-
-
 println ((value map(_ toString)).foldLeft("")(_ + _))
-
-
 
 
 
